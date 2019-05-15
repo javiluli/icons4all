@@ -1,0 +1,114 @@
+h2 {
+  font-size: 2.5em;
+  font-family: var(--heading-font);
+  padding-bottom: 0.5em;
+  color: $color-text;
+}
+
+input {
+  color: #262626;
+  font-family: $font;
+  font-size: 1em;
+  font-weight: 400;
+  width: 300px;
+  height: 40px;
+  border: 2px solid hsl(0, 0%, 70%);
+  border-radius: 0.25em;
+  // margin-left: 1em;
+  margin-right: 1em;
+
+  &:focus {
+    border: 3px solid $color-2;
+  }
+
+  &::selection {
+    color: #fff;
+    background-color: $color;
+  }
+}
+
+.btn {
+  height: 40px;
+  width: 70px;
+  background-color: $color-2;
+  color: #fff;
+  border: none;
+  border-radius: 0.25em;
+  font-size: 0.85em;
+  font-family: $font;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+
+  &:hover {
+    background-color: $color;
+  }
+  &:active {
+    transform: scale(0.98);
+    background-color: $color-2;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0);
+  }
+}
+
+.searh-list-icon {
+  position: relative;
+  margin: 2em 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 2em;
+}
+.item-list-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 1em;
+  font-family: $font;
+  color: $color-text;
+  width: 100%;
+  height: 100px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.download-item {
+  text-decoration: none;
+  font-family: $font;
+  color: $color-text;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  max-width: 12em;
+  height: 100px;
+  box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.15);
+}
+.img-item {
+  width: 2.5em;
+}
+.spam-item {
+  font-size: 1em;
+}
+
+/* Icono no encontrado / Icon not found */
+
+.notFound {
+  // border: 3px solid hsl(239, 100%, 50%);
+  position: absolute;
+  display: block;
+  // padding-left: 0.5em;
+  font-family: $font;
+  color: var(--color-second);
+  font-size: 2em;
+  font-weight: 400;
+  animation: text_color 2s ease-in-out infinite;
+  // @keyframes text_color {
+  //   0%,
+  //   100% {
+  //     color: var(--color-primary);
+  //   }
+  //   50% {
+  //     color: var(--color-primary-dark);
+  //   }
+  // }
+}

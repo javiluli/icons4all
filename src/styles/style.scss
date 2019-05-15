@@ -1,0 +1,10 @@
+$font: "Raleway", sans-serif;
+$color: hsl(204, 100%, 50%);
+$color-2: hsl(190, 60%, 50%);
+$color-text: hsl(0, 0%, 32%);
+
+@import "layout/global";
+@import "layout/main";
+@import "layout/variables";
+@import "layout/navigation";
+@import "layout/typography";

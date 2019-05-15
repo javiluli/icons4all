@@ -1,0 +1,50 @@
+/* Navigation */
+header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 92em;
+  margin: 0 auto;
+  padding: 1em 0 2em;
+}
+
+.logo {
+  font-family: var(--heading-font);
+}
+
+.logo a {
+  text-decoration: none;
+  color: var(--dark-color-text);
+}
+
+.list-nav {
+  display: flex;
+}
+.item-list-nav {
+  list-style: none;
+}
+.link-item-list-nav {
+  display: inline-block;
+  padding: 0 0.5em;
+  color: var(--color-first);
+  text-decoration: none;
+  font-size: var(--normal-font-size);
+  font-family: var(--heading-font);
+  font-weight: bold;
+  transition: all 0.1s ease;
+
+  &:hover,
+  &:focus {
+    color: var(--color-accent);
+  }
+}
+.spam-header {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border: 0.1px solid hsl(0, 0%, 75%);
+  border-radius: 100%;
+}

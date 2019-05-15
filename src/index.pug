@@ -1,0 +1,30 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(http-equiv='X-UA-Compatible', content='ie=edge')
+    title Repositiorio icons SVG
+    link(rel="stylesheet", href="static/css/normalize.css")
+    link(rel="stylesheet", href="static/css/font-Montserrat.css")
+    link(rel="stylesheet", href="static/css/font-Confortaa.css")
+  body
+    section.section-main
+    
+      header
+        h1.logo: a(href="index.html") Responsive icons SVG
+        nav.main-nav
+          include partials/menu
+        spam.spam-header
+
+      main.main
+        section
+          h2 Searh your icon
+          .wrapper-icons
+            .wrap-icons
+            input(type="text").form-control#form
+            //- button.btn#button Search
+            ul.searh-list-icon#searh_list_icon
+
+      footer
+      include partials/menu
