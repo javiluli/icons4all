@@ -12,19 +12,21 @@ html(lang='en')
     section.section-main
     
       header
-        h1.logo: a(href="index.html") Responsive icons SVG
+        h1.logo: a(href="index.html") Icons SVG
         nav.main-nav
           include partials/menu
         spam.spam-header
 
       main.main
         section
-          h2 Searh your icon
+          //- h2 Searh your icon
           .wrapper-icons
-            .wrap-icons
-            input(type="text").form-control#form
-            //- button.btn#button Search
-            ul.searh-list-icon#searh_list_icon
+            .wrap-search-icons
+              label(for="form").label-search
+                input(type="text", placeholder='Search icon...').input-search#form
+                img(src="./static/content/svg/lens.svg", alt="").icon-nput-search
+            .wrap-icons-grid
+              section.searh-list-icon#searh_list_icon
 
       footer
       include partials/menu

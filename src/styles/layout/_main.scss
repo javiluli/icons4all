@@ -5,89 +5,105 @@ h2 {
   color: $color-text;
 }
 
-input {
-  color: #262626;
+.label-search {
+  position: relative;
+}
+
+.input-search {
+  color: var(--dark-color-text);
   font-family: $font;
   font-size: 1em;
   font-weight: 400;
-  width: 300px;
-  height: 40px;
-  border: 2px solid hsl(0, 0%, 70%);
+  width: 100%;
+  border: 3px solid hsl(0, 0%, 85%);
   border-radius: 0.25em;
-  // margin-left: 1em;
-  margin-right: 1em;
+  padding: 1em 2.5em;
 
   &:focus {
     border: 3px solid $color-2;
   }
-
   &::selection {
     color: #fff;
     background-color: $color;
   }
 }
 
-.btn {
-  height: 40px;
-  width: 70px;
-  background-color: $color-2;
-  color: #fff;
-  border: none;
-  border-radius: 0.25em;
-  font-size: 0.85em;
-  font-family: $font;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+.icon-nput-search {
+  width: 1em;
+  position: absolute;
+  top: 0;
+  left: 1em;
+}
 
-  &:hover {
-    background-color: $color;
-  }
-  &:active {
-    transform: scale(0.98);
-    background-color: $color-2;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0);
-  }
+.wrap-icons-grid {
+  // border: 2px solid rgb(72, 255, 0);
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin: 2em 0;
 }
 
 .searh-list-icon {
   position: relative;
-  margin: 2em 0;
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  grid-gap: 2em;
-}
-.item-list-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  font-size: 1em;
-  font-family: $font;
-  color: $color-text;
-  width: 100%;
-  height: 100px;
-  font-weight: 400;
-  cursor: pointer;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: var(--gap);
+  // border: 2px solid red;
+  max-width: 1300px;
+  margin: 0 auto;
 }
 
 .download-item {
-  text-decoration: none;
-  font-family: $font;
-  color: $color-text;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  max-width: 12em;
-  height: 100px;
-  box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+  color: $color-text;
+  background-color: var(--color-body-bg);
+  font-family: $font;
+  border-radius: var(--border-radius);
+  transition: 0.15s;
+  border: 3px solid rgb(255, 255, 255);
+
+  &:hover {
+    background-color: white;
+    box-shadow: 0 0 20px -2px rgba(0, 0, 0, 0.1);
+  }
+  &:active {
+    border: 3px solid var(--color-first);
+    box-shadow: none;
+  }
+  &:hover .spam-item::after {
+    transform: scaleX(1);
+  }
 }
+
 .img-item {
-  width: 2.5em;
+  width: 2em;
+  margin: 1em 0;
 }
 .spam-item {
-  font-size: 1em;
+  position: relative;
+  color: var(--dark-color-text);
+  font-size: var(--small-font-size);
+  font-weight: 200;
+  font-family: var(--body-font);
+
+  &::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: var(--color-first);
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: 0.2s;
+  }
 }
 
 /* Icono no encontrado / Icon not found */
@@ -102,13 +118,4 @@ input {
   font-size: 2em;
   font-weight: 400;
   animation: text_color 2s ease-in-out infinite;
-  // @keyframes text_color {
-  //   0%,
-  //   100% {
-  //     color: var(--color-primary);
-  //   }
-  //   50% {
-  //     color: var(--color-primary-dark);
-  //   }
-  // }
 }

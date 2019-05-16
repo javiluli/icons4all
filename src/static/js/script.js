@@ -50,18 +50,16 @@ const filter = () => {
     let name = icon.name.toLowerCase();
     if (name.indexOf(text) !== -1) {
       searh_list_icon.innerHTML += `
-      <li> ${icon.logo}</li>
+      <div class="wrap-icon"> ${icon.logo}</div>
       `;
     }
   }
   if (searh_list_icon.innerHTML === "") {
     searh_list_icon.innerHTML += `
-    <li class="notFound">Icono no encontrado</li>
+    <p class="notFound">Icono not found...</p>
     `;
   }
 };
-
-// button.addEventListener("click", filter);
 
 form.addEventListener("keyup", filter);
 

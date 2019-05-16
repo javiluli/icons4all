@@ -2,6 +2,7 @@
 import "./static/content/svg/logo.svg";
 import "./static/content/svg/favicon.svg";
 import "./static/content/img/img.jpg";
+import "./static/content/svg/lens.svg";
 
 import "./static/content/svg/git.svg";
 import "./static/content/svg/github.svg";
