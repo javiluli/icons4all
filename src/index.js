@@ -1,14 +1,52 @@
-// Import png/jpg/svg/gif
-import "./static/content/svg/logo.svg";
-import "./static/content/svg/favicon.svg";
+// Import Icons website
+import "./static/content/icons/logo.svg";
+import "./static/content/icons/favicon.svg";
 import "./static/content/img/img.jpg";
+import "./static/content/icons/iconsSearch.svg";
+
+// Import Icons SVG for download
+//---------------------------------//
+// #### Alphabetical order ####
+//---------------------------------//
+// --- A ----
+import "./static/js/import_icons_A.js";
+// --- B ----
+// --- C ----
+import "./static/content/svg/codepen.svg";
+
+// --- D ----
+// --- E ----
+// --- F ----
+// --- G ----
+import "./static/content/svg/git.svg";
+import "./static/content/svg/github-fill.svg";
+import "./static/content/svg/github-stroke.svg";
+import "./static/content/svg/gitlab-fill.svg";
+import "./static/content/svg/gitlab-stroke.svg";
+
+// --- H ----
+// --- I ----
+// --- J ----
+// --- K ----
+// --- L ----
 import "./static/content/svg/lens.svg";
 
-import "./static/content/svg/git.svg";
-import "./static/content/svg/github.svg";
-import "./static/content/svg/gitlab.svg";
-import "./static/content/svg/codepen.svg";
+// --- M ----
+// --- N ----
+// --- O ----
+// --- P ----
+// --- Q ----
+// --- R ----
+// --- S ----
+// --- T ----
+// --- U ----
+// --- V ----
 import "./static/content/svg/visualstudiocode.svg";
+
+// --- W ----
+// --- X ----
+// --- Y ----
+// --- Z ----
 
 //---------------------------------//
 
@@ -31,5 +69,5 @@ import "./static/fonts/Montserrat-SemiBold.ttf";
 //---------------------------------//
 
 import "./static/js/script.js";
-// import "./static/js/copyright";
+import "./static/js/copyright";
 //---------------------------------//

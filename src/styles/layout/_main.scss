@@ -1,24 +1,16 @@
-h2 {
-  font-size: 2.5em;
-  font-family: var(--heading-font);
-  padding-bottom: 0.5em;
-  color: $color-text;
-}
-
 .label-search {
   position: relative;
 }
 
 .input-search {
   color: var(--dark-color-text);
-  font-family: $font;
+  font-family: var(--body-font);
   font-size: 1em;
   font-weight: 400;
   width: 100%;
   border: 3px solid hsl(0, 0%, 85%);
   border-radius: 0.25em;
   padding: 1em 2.5em;
-
   &:focus {
     border: 3px solid $color-2;
   }
@@ -36,49 +28,57 @@ h2 {
 }
 
 .wrap-icons-grid {
-  // border: 2px solid rgb(72, 255, 0);
   width: 100%;
   height: 100%;
   position: relative;
-  margin: 2em 0;
 }
 
 .searh-list-icon {
-  position: relative;
   list-style: none;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: var(--gap);
-  // border: 2px solid red;
-  max-width: 1300px;
+  max-width: 65em;
   margin: 0 auto;
 }
 
-.download-item {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+.wrap-download {
+  position: relative;
   width: 100%;
-  text-decoration: none;
   color: $color-text;
   background-color: var(--color-body-bg);
-  font-family: $font;
+  font-family: var(--body-font);
   border-radius: var(--border-radius);
-  transition: 0.15s;
-  border: 3px solid rgb(255, 255, 255);
+  transition: 0.1s;
 
   &:hover {
     background-color: white;
     box-shadow: 0 0 20px -2px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
   }
   &:active {
     border: 3px solid var(--color-first);
     box-shadow: none;
+    transform: scale(1);
   }
   &:hover .spam-item::after {
     transform: scaleX(1);
   }
+}
+.download-item {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+.wrap-icon {
+  display: grid;
+  grid-template-columns: max-content auto;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 1em;
 }
 
 .img-item {
@@ -87,6 +87,7 @@ h2 {
 }
 .spam-item {
   position: relative;
+  display: block;
   color: var(--dark-color-text);
   font-size: var(--small-font-size);
   font-weight: 200;
@@ -109,11 +110,12 @@ h2 {
 /* Icono no encontrado / Icon not found */
 
 .notFound {
-  // border: 3px solid hsl(239, 100%, 50%);
   position: absolute;
+  top: 1em;
+  left: 0;
   display: block;
   // padding-left: 0.5em;
-  font-family: $font;
+  font-family: var(--body-font);
   color: var(--color-second);
   font-size: 2em;
   font-weight: 400;

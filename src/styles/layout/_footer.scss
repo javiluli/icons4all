@@ -1,5 +1,6 @@
 .main-footer {
   display: flex;
+  grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -8,11 +9,12 @@
   background-color: var(--bg-color-dark);
 }
 .wrapper-footer {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: space-between;
   align-items: center;
-  max-width: 1700px;
-  height: var(--heading-height);
+  max-width: 92em;
+  width: 100%;
 }
 
 .text-footer {
