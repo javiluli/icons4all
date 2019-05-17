@@ -12,41 +12,49 @@ import "./static/js/import_icons_A.js";
 // --- B ----
 import "./static/js/import_icons_B.js";
 // --- C ----
-import "./static/content/svg/codepen.svg";
-
+import "./static/js/import_icons_C.js";
 // --- D ----
+import "./static/js/import_icons_D.js";
 // --- E ----
+import "./static/js/import_icons_E.js";
 // --- F ----
+import "./static/js/import_icons_F.js";
 // --- G ----
-import "./static/content/svg/git.svg";
-import "./static/content/svg/github-fill.svg";
-import "./static/content/svg/github-stroke.svg";
-import "./static/content/svg/gitlab-fill.svg";
-import "./static/content/svg/gitlab-stroke.svg";
-
+import "./static/js/import_icons_G.js";
 // --- H ----
+import "./static/js/import_icons_H.js";
 // --- I ----
-// --- J ----
+import "./static/js/import_icons_I.js";
 // --- K ----
+import "./static/js/import_icons_K.js";
 // --- L ----
-import "./static/content/svg/lens.svg";
-
+import "./static/js/import_icons_L.js";
 // --- M ----
+import "./static/js/import_icons_M.js";
 // --- N ----
+import "./static/js/import_icons_N.js";
 // --- O ----
+import "./static/js/import_icons_O.js";
 // --- P ----
-// --- Q ----
+import "./static/js/import_icons_P.js";
 // --- R ----
+import "./static/js/import_icons_R.js";
 // --- S ----
+import "./static/js/import_icons_S.js";
 // --- T ----
+import "./static/js/import_icons_T.js";
 // --- U ----
+import "./static/js/import_icons_U.js";
 // --- V ----
-import "./static/content/svg/visualstudiocode.svg";
-
+import "./static/js/import_icons_V.js";
 // --- W ----
+import "./static/js/import_icons_W.js";
 // --- X ----
+import "./static/js/import_icons_X.js";
 // --- Y ----
+import "./static/js/import_icons_Y.js";
 // --- Z ----
+import "./static/js/import_icons_Z.js";
 
 //---------------------------------//
 

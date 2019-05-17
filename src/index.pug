@@ -10,24 +10,18 @@ html(lang='en')
     link(rel="stylesheet", href="static/css/font-Confortaa.css")
   body
     section.section-main
-    
-      header
-        h1.logo: a(href="index.html") Free icons SVG
-        nav.main-nav
-          include partials/menu
-        spam.spam-header
-
+      include partials/header
       main.main
         section
           .wrapper-icons
             .wrap-search-icons
               label(for="form").label-search
-                input(type="text", placeholder='Search icon...').input-search#form
-                img(src="./static/content/svg/lens.svg", alt="").icon-nput-search
+                input(type="text", placeholder='Search icon').input-search#form
+                img(src="./static/content/svg/lens.svg", alt="").icon-input-search
             .wrap-icons-grid
               section.searh-list-icon#searh_list_icon
 
     footer.main-footer
       .wrapper-footer
-        include partials/menu
+        include partials/menu-footer
         p#textFooter.text-footer

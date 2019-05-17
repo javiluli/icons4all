@@ -22,6 +22,12 @@
   --color-second: hsl(190, 60%, 50%);
   --second-color: var(--color-second);
 
+  --color-accent: hsl(220, 54%, 45%);
+  --first-color: var(--color-accent);
+
+  --color-accent-dark: hsl(219, 54%, 27%);
+  --second-color: var(--color-accent-dark);
+
   --color-text: hsl(0, 0%, 100%);
   --text-color: var(--color-text);
 
@@ -40,14 +46,4 @@
   --z-tooltip: 10;
   --z-fixed: 100;
   --z-modal: 1000;
-
-  // --color-text: hsl(0, 0%, 30%);
-  // --color-text-light: hsl(0, 0%, 98%);
-  // --color-primary: hsl(182, 81%, 36%);
-  // --color-primary-dark: hsl(182, 81%, 26%);
-  // --color-accent: hsl(219, 43%, 31%);
-  // --color-accent-dark: hsl(219, 43%, 21%);
-  // $color: hsl(204, 100%, 50%);
-  // $color-2: hsl(190, 60%, 50%);
-  // $color-text: hsl(0, 0%, 32%);
 }

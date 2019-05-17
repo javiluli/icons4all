@@ -1,5 +1,4 @@
 /* Typography */
-
 h1,
 h2,
 h3,
@@ -7,9 +6,11 @@ h4,
 p {
   margin: 0;
 }
-
+h1 {
+  font-size: var(--h1-font-size);
+}
 h2 {
-  font-size: 2.25rem;
+  font-size: var(--h2-font-size);
 }
 
 p {

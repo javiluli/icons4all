@@ -1,0 +1,21 @@
+.list-nav-footer {
+  display: flex;
+}
+.item-list-nav-footer {
+  list-style: none;
+}
+.link-item-list-nav-footer {
+  display: inline-block;
+  padding: 0 0.5em;
+  color: var(--color-first);
+  text-decoration: none;
+  font-size: var(--normal-font-size);
+  font-family: var(--heading-font);
+  font-weight: bold;
+  transition: all 0.1s ease;
+
+  &:hover,
+  &:focus {
+    color: var(--color-text);
+  }
+}

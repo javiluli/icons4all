@@ -1,0 +1,12 @@
+import "../content/svg/gift.svg";
+import "../content/svg/git-branch.svg";
+import "../content/svg/git-commit.svg";
+import "../content/svg/git-merge.svg";
+import "../content/svg/git-pull-request.svg";
+import "../content/svg/git.svg";
+import "../content/svg/github-fill.svg";
+import "../content/svg/github-stroke.svg";
+import "../content/svg/gitlab-fill.svg";
+import "../content/svg/gitlab-stroke.svg";
+import "../content/svg/globe.svg";
+import "../content/svg/grid.svg";

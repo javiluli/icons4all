@@ -39,12 +39,12 @@ header {
     color: var(--color-accent);
   }
 }
-.spam-header {
+.hr-header {
   display: block;
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
-  border: 0.1px solid hsl(0, 0%, 75%);
+  border: 0.5px solid hsl(0, 0%, 75%);
   border-radius: 100%;
 }
