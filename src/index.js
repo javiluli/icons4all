@@ -11,6 +11,7 @@ import "./static/content/icons/iconsSearch.svg";
 // --- A ----
 import "./static/js/import_icons_A.js";
 // --- B ----
+import "./static/js/import_icons_B.js";
 // --- C ----
 import "./static/content/svg/codepen.svg";
 
@@ -68,6 +69,6 @@ import "./static/fonts/Montserrat-SemiBold.ttf";
 
 //---------------------------------//
 
-import "./static/js/script.js";
+import "./static/js/array_SVG_library.js";
 import "./static/js/copyright";
 //---------------------------------//

@@ -3,7 +3,9 @@ const button = document.getElementById("button");
 const searh_list_icon = document.getElementById("searh_list_icon");
 
 const icons = [
-  // --- A ----
+  // ############################
+  // ------------ A -------------
+  // ############################
   {
     name: "Activity",
     link: `<a class="download-item" href="static/content/svg/activity.svg" download=""></a> `,
@@ -160,18 +162,109 @@ const icons = [
     img:
       "<img class='img-item' src='static/content/svg/award.svg' alt='notFound'/>"
   },
-  // --- B ----
-  // --- C ----
+  // ############################
+  // ------------ B -------------
+  // ############################
+  {
+    name: "Bar-chart-2",
+    link: `<a class="download-item" href="static/content/svg/bar-chart-2.svg" download=""></a> `,
+    img:
+      "<img class='img-item' src='static/content/svg/bar-chart-2.svg' alt='notFound'/>"
+  },
+  {
+    name: "Bar-chart",
+    link: `<a class="download-item" href="static/content/svg/bar-chart.svg" download=""></a> `,
+    img:
+      "<img class='img-item' src='static/content/svg/bar-chart.svg' alt='notFound'/>"
+  },
+  {
+    name: "Battery-charging",
+    link: `<a class="download-item" href="static/content/svg/battery-charging.svg" download=""></a> `,
+    img:
+      "<img class='img-item' src='static/content/svg/battery-charging.svg' alt='notFound'/>"
+  },
+  {
+    name: "Battery",
+    link: `<a class="download-item" href="static/content/svg/battery.svg" download=""></a> `,
+    img:
+      "<img class='img-item' src='static/content/svg/battery.svg' alt='notFound'/>"
+  },
+  {
+    name: "Bell-off",
+    link: `<a class="download-item" href="static/content/svg/bell-off.svg" download=""></a> `,
+    img:
+      "<img class='img-item' src='static/content/svg/bell-off.svg' alt='notFound'/>"
+  },
+  {
+    name: "Bell",
+    link: `<a class="download-item" href="static/content/svg/bell.svg" download=""></a> `,
+    img:
+      "<img class='img-item' src='static/content/svg/bell.svg' alt='notFound'/>"
+  },
+  {
+    name: "Bluetooth",
+    link: `<a class="download-item" href="static/content/svg/bluetooth.svg" download=""></a> `,
+    img:
+      "<img class='img-item' src='static/content/svg/bluetooth.svg' alt='notFound'/>"
+  },
+  {
+    name: "Bold",
+    link: `<a class="download-item" href="static/content/svg/bold.svg" download=""></a> `,
+    img:
+      "<img class='img-item' src='static/content/svg/bold.svg' alt='notFound'/>"
+  },
+  {
+    name: "Book-open",
+    link: `<a class="download-item" href="static/content/svg/book-open.svg" download=""></a> `,
+    img:
+      "<img class='img-item' src='static/content/svg/book-open.svg' alt='notFound'/>"
+  },
+  {
+    name: "Book",
+    link: `<a class="download-item" href="static/content/svg/book.svg" download=""></a> `,
+    img:
+      "<img class='img-item' src='static/content/svg/book.svg' alt='notFound'/>"
+  },
+  {
+    name: "Bookmark",
+    link: `<a class="download-item" href="static/content/svg/bookmark.svg" download=""></a> `,
+    img:
+      "<img class='img-item' src='static/content/svg/bookmark.svg' alt='notFound'/>"
+  },
+  {
+    name: "Box",
+    link: `<a class="download-item" href="static/content/svg/box.svg" download=""></a> `,
+    img:
+      "<img class='img-item' src='static/content/svg/box.svg' alt='notFound'/>"
+  },
+  {
+    name: "Briefcase",
+    link: `<a class="download-item" href="static/content/svg/briefcase.svg" download=""></a> `,
+    img:
+      "<img class='img-item' src='static/content/svg/briefcase.svg' alt='notFound'/>"
+  },
+  // ############################
+  // ------------ C -------------
+  // ############################
   {
     name: "CodePen",
     link: `<a class="download-item" href="static/content/svg/codepen.svg" download=""></a> `,
     img:
       "<img class='img-item' src='static/content/svg/codepen.svg' alt='notFound'/>"
   },
-  // --- D ----
-  // --- E ----
-  // --- F ----
-  // --- G ----
+  // ############################
+  // ------------ D -------------
+  // ############################
+  // ############################
+  // ------------ E -------------
+  // ############################
+  // ############################
+  // ------------ F -------------
+  // ############################
+  // ############################
+  // ------------ G -------------
+  // ############################
+
   {
     name: "Git",
     link: `<a class="download-item" href="static/content/svg/git.svg" download=""></a> `,
@@ -202,11 +295,26 @@ const icons = [
     img:
       "<img class='img-item' src='static/content/svg/gitlab-stroke.svg' alt='notFound'/>"
   },
-  // --- H ----
-  // --- I ----
-  // --- J ----
-  // --- K ----
-  // --- L ----
+  // ############################
+  // ------------ H -------------
+  // ############################
+
+  // ############################
+  // ------------ I -------------
+  // ############################
+
+  // ############################
+  // ------------ J -------------
+  // ############################
+
+  // ############################
+  // ------------ K -------------
+  // ############################
+
+  // ############################
+  // ------------ L-------------
+  // ############################
+
   {
     name: "Lens",
     link: `<a class="download-item" href="static/content/svg/lens.svg" download=""></a> `,
