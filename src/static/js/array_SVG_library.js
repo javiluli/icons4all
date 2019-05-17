@@ -184,10 +184,28 @@ const icons = [
       "<img class='img-item' src='static/content/svg/battery-charging.svg' alt='notFound'/>"
   },
   {
-    name: "Battery",
-    link: `<a class="download-item" href="static/content/svg/battery.svg" download=""></a> `,
+    name: "Battery-empty",
+    link: `<a class="download-item" href="static/content/svg/battery-empty.svg" download=""></a> `,
     img:
-      "<img class='img-item' src='static/content/svg/battery.svg' alt='notFound'/>"
+      "<img class='img-item' src='static/content/svg/battery-empty.svg' alt='notFound'/>"
+  },
+  {
+    name: "Battery-full",
+    link: `<a class="download-item" href="static/content/svg/battery-full.svg" download=""></a> `,
+    img:
+      "<img class='img-item' src='static/content/svg/battery-full.svg' alt='notFound'/>"
+  },
+  {
+    name: "Battery-half",
+    link: `<a class="download-item" href="static/content/svg/battery-half.svg" download=""></a> `,
+    img:
+      "<img class='img-item' src='static/content/svg/battery-half.svg' alt='notFound'/>"
+  },
+  {
+    name: "Battery-low",
+    link: `<a class="download-item" href="static/content/svg/battery-low.svg" download=""></a> `,
+    img:
+      "<img class='img-item' src='static/content/svg/battery-low.svg' alt='notFound'/>"
   },
   {
     name: "Bell-off",

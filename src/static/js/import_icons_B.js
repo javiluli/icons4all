@@ -1,7 +1,10 @@
 import "../content/svg/bar-chart-2.svg";
 import "../content/svg/bar-chart.svg";
 import "../content/svg/battery-charging.svg";
-import "../content/svg/battery.svg";
+import "../content/svg/battery-empty.svg";
+import "../content/svg/battery-full.svg";
+import "../content/svg/battery-half.svg";
+import "../content/svg/battery-low.svg";
 import "../content/svg/bell-off.svg";
 import "../content/svg/bell.svg";
 import "../content/svg/bluetooth.svg";

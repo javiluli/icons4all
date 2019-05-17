@@ -49,6 +49,7 @@
   background-color: var(--color-body-bg);
   font-family: var(--body-font);
   border-radius: var(--border-radius);
+  border: 3px solid transparent;
   transition: 0.1s;
 
   &:hover {

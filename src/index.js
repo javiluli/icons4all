@@ -1,7 +1,6 @@
 // Import Icons website
 import "./static/content/icons/logo.svg";
 import "./static/content/icons/favicon.svg";
-import "./static/content/img/img.jpg";
 import "./static/content/icons/iconsSearch.svg";
 
 // Import Icons SVG for download
