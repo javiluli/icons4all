@@ -1,7 +1,4 @@
-import "../content/svg/hard-drive.svg";
-import "../content/svg/hash.svg";
-import "../content/svg/headphones.svg";
-import "../content/svg/heart.svg";
-import "../content/svg/help-circle.svg";
-import "../content/svg/hexagon.svg";
-import "../content/svg/home.svg";
+import "../content/svg/half-life-2.svg";
+import "../content/svg/half-life.svg";
+import "../content/svg/hk-hollowknight.svg";
+import "../content/svg/hk-hornet.svg";

@@ -1,12 +1,1 @@
-import "../content/svg/layers.svg";
-import "../content/svg/layout.svg";
 import "../content/svg/lens.svg";
-import "../content/svg/life-buoy.svg";
-import "../content/svg/link-2.svg";
-import "../content/svg/link.svg";
-import "../content/svg/linkedin.svg";
-import "../content/svg/list.svg";
-import "../content/svg/loader.svg";
-import "../content/svg/lock.svg";
-import "../content/svg/log-in.svg";
-import "../content/svg/log-out.svg";

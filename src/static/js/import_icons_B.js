@@ -1,16 +1,5 @@
-import "../content/svg/bar-chart-2.svg";
-import "../content/svg/bar-chart.svg";
 import "../content/svg/battery-charging.svg";
 import "../content/svg/battery-empty.svg";
 import "../content/svg/battery-full.svg";
 import "../content/svg/battery-half.svg";
 import "../content/svg/battery-low.svg";
-import "../content/svg/bell-off.svg";
-import "../content/svg/bell.svg";
-import "../content/svg/bluetooth.svg";
-import "../content/svg/bold.svg";
-import "../content/svg/book-open.svg";
-import "../content/svg/book.svg";
-import "../content/svg/bookmark.svg";
-import "../content/svg/box.svg";
-import "../content/svg/briefcase.svg";

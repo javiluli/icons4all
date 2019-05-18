@@ -13,11 +13,11 @@
   border-radius: 0.25em;
   padding: 1em 3em;
   &:focus {
-    border: 3px solid $color-2;
+    border: 3px solid var(--color-second);
   }
   &::selection {
-    color: #fff;
-    background-color: $color;
+    color: var(--color-text);
+    background-color: var(--color-first);
   }
 }
 
@@ -42,14 +42,14 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: var(--gap);
-  max-width: 65em;
+  max-width: 60em;
   margin: 0 auto;
 }
 
 .wrap-download {
   position: relative;
   width: 100%;
-  color: $color-text;
+  color: var(--dark-color-text);
   background-color: var(--color-body-bg);
   font-family: var(--body-font);
   border-radius: var(--border-radius);
@@ -87,7 +87,7 @@
 }
 
 .img-item {
-  width: 2em;
+  width: 2.5em;
   margin: 1em 0;
 }
 .spam-item {
@@ -119,7 +119,6 @@
   top: 1em;
   left: 0;
   display: block;
-  // padding-left: 0.5em;
   font-family: var(--body-font);
   color: var(--color-second);
   font-size: 2em;

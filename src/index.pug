@@ -1,13 +1,18 @@
 doctype html
 html(lang='en')
   head
-    meta(charset='UTF-8')
-    meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    meta(http-equiv='X-UA-Compatible', content='ie=edge')
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    meta(name="title" content="Icons SVG" class="next-head")
+    meta(name="description" content="Repositorio de iconos SVG" class="next-head")
+
     title Repositiorio icons SVG
     link(rel="stylesheet", href="static/css/normalize.css")
     link(rel="stylesheet", href="static/css/font-Montserrat.css")
     link(rel="stylesheet", href="static/css/font-Confortaa.css")
+    link(rel="shortcut icon", href="static/content/svg/logo.svg", type="image/x-icon")
+    link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
   body
     section.section-main
       include partials/header
@@ -25,3 +30,8 @@ html(lang='en')
       .wrapper-footer
         include partials/menu-footer
         p#textFooter.text-footer
+
+    //- Btn back to top
+    include partials/btn_back_top
+    
+

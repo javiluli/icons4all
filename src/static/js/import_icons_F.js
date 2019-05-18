@@ -1,15 +1,1 @@
-import "../content/svg/facebook.svg";
-import "../content/svg/fast-forward.svg";
-import "../content/svg/feather.svg";
-import "../content/svg/figma.svg";
-import "../content/svg/file-minus.svg";
-import "../content/svg/file-plus.svg";
-import "../content/svg/file-text.svg";
-import "../content/svg/file.svg";
-import "../content/svg/film.svg";
-import "../content/svg/filter.svg";
-import "../content/svg/flag.svg";
-import "../content/svg/folder-minus.svg";
-import "../content/svg/folder-plus.svg";
-import "../content/svg/folder.svg";
-import "../content/svg/frown.svg";
+import "../content/svg/fornite.svg";
