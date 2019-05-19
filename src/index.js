@@ -29,6 +29,8 @@ import "./static/js/import_icons_C.js";
 import "./static/js/import_icons_D.js";
 // --- F ----
 import "./static/js/import_icons_F.js";
+// --- G ----
+import "./static/js/import_icons_G.js";
 // --- H ----
 import "./static/js/import_icons_H.js";
 // --- L----
@@ -43,6 +45,8 @@ import "./static/js/import_icons_R.js";
 import "./static/js/import_icons_S.js";
 // --- T ----
 import "./static/js/import_icons_T.js";
+// --- W ----
+import "./static/js/import_icons_W.js";
 // --- Y ----
 import "./static/js/import_icons_Y.js";
 
@@ -51,5 +55,5 @@ import "./static/js/import_icons_Y.js";
 //---------------------------------//
 
 import "./static/js/array_SVG_library.js";
-import "./static/js/copyright";
+import "./static/js/btn-back-top";
 //---------------------------------//

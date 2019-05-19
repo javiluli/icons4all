@@ -79,7 +79,21 @@ const icons = [
     img:
       "<img class='img-item' src='static/content/svg/fornite.svg' alt='notFound'/>"
   },
-
+  // ############################
+  // ------------ G -------------
+  // ############################
+  {
+    name: "Git",
+    link: `<a class="download-item" href="static/content/svg/git.svg" download=""></a> `,
+    img:
+      "<img class='img-item' src='static/content/svg/git.svg' alt='notFound'/>"
+  },
+  {
+    name: "Github",
+    link: `<a class="download-item" href="static/content/svg/github.svg" download=""></a> `,
+    img:
+      "<img class='img-item' src='static/content/svg/github.svg' alt='notFound'/>"
+  },
   // ############################
   // ------------ H -------------
   // ############################
@@ -107,6 +121,12 @@ const icons = [
     img:
       "<img class='img-item' src='static/content/svg/hk-hornet.svg' alt='notFound'/>"
   },
+  {
+    name: "Heart",
+    link: `<a class="download-item" href="static/content/svg/heart.svg" download=""></a> `,
+    img:
+      "<img class='img-item' src='static/content/svg/heart.svg' alt='notFound'/>"
+  },
 
   // ############################
   // ------------ L -------------
@@ -127,12 +147,17 @@ const icons = [
       "<img class='img-item' src='static/content/svg/mc-creeper.svg' alt='notFound'/>"
   },
   {
+    name: "Moon-2",
+    link: `<a class="download-item" href="static/content/svg/moon-2.svg" download=""></a> `,
+    img:
+      "<img class='img-item' src='static/content/svg/moon-2.svg' alt='notFound'/>"
+  },
+  {
     name: "Moon",
     link: `<a class="download-item" href="static/content/svg/moon.svg" download=""></a> `,
     img:
       "<img class='img-item' src='static/content/svg/moon.svg' alt='notFound'/>"
   },
-
   // ############################
   // ------------ P -------------
   // ############################
@@ -148,7 +173,12 @@ const icons = [
     img:
       "<img class='img-item' src='static/content/svg/portal.svg' alt='notFound'/>"
   },
-
+  {
+    name: "Power",
+    link: `<a class="download-item" href="static/content/svg/power.svg" download=""></a> `,
+    img:
+      "<img class='img-item' src='static/content/svg/power.svg' alt='notFound'/>"
+  },
   // ############################
   // ------------ R -------------
   // ############################
@@ -162,22 +192,41 @@ const icons = [
   // ------------ S -------------
   // ############################
   {
+    name: "Smartphone",
+    link: `<a class="download-item" href="static/content/svg/smartphone.svg" download=""></a> `,
+    img:
+      "<img class='img-item' src='static/content/svg/smartphone.svg' alt='notFound'/>"
+  },
+  {
+    name: "Star",
+    link: `<a class="download-item" href="static/content/svg/star.svg" download=""></a> `,
+    img:
+      "<img class='img-item' src='static/content/svg/star.svg' alt='notFound'/>"
+  },
+  {
     name: "Steam-black",
     link: `<a class="download-item" href="static/content/svg/steam-black.svg" download=""></a> `,
     img:
       "<img class='img-item' src='static/content/svg/steam-black.svg' alt='notFound'/>"
   },
-  {
-    name: "Steam-tm",
-    link: `<a class="download-item" href="static/content/svg/steam-tm.svg" download=""></a> `,
-    img:
-      "<img class='img-item' src='static/content/svg/steam-tm.svg' alt='notFound'/>"
-  },
+
   {
     name: "Steam-white",
     link: `<a class="download-item" href="static/content/svg/steam-white.svg" download=""></a> `,
     img:
       "<img class='img-item' src='static/content/svg/steam-white.svg' alt='notFound'/>"
+  },
+  {
+    name: "Sun-2",
+    link: `<a class="download-item" href="static/content/svg/sun-2.svg" download=""></a> `,
+    img:
+      "<img class='img-item' src='static/content/svg/sun-2.svg' alt='notFound'/>"
+  },
+  {
+    name: "Sun-3",
+    link: `<a class="download-item" href="static/content/svg/sun-3.svg" download=""></a> `,
+    img:
+      "<img class='img-item' src='static/content/svg/sun-3.svg' alt='notFound'/>"
   },
   {
     name: "Sun",
@@ -199,6 +248,22 @@ const icons = [
     link: `<a class="download-item" href="static/content/svg/twitch.svg" download=""></a> `,
     img:
       "<img class='img-item' src='static/content/svg/twitch.svg' alt='notFound'/>"
+  },
+
+  // ############################
+  // ------------ W -------------
+  // ############################
+  {
+    name: "wifi-off",
+    link: `<a class="download-item" href="static/content/svg/wifi-off.svg" download=""></a> `,
+    img:
+      "<img class='img-item' src='static/content/svg/wifi-off.svg' alt='notFound'/>"
+  },
+  {
+    name: "wifi",
+    link: `<a class="download-item" href="static/content/svg/wifi.svg" download=""></a> `,
+    img:
+      "<img class='img-item' src='static/content/svg/wifi.svg' alt='notFound'/>"
   },
   // ############################
   // ------------ Y -------------
