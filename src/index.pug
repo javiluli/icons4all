@@ -14,22 +14,26 @@ html(lang='en')
     link(rel="shortcut icon", href="static/content/svg/logo.svg", type="image/x-icon")
     link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
   body
-    section.section-main
+    #__next
+      <!------- Header ------->
       include partials/header
-      main.main
-        section.section-wrapper-icons
+      
+      main.main-section-body
+        section.wrapper-section
           .wrap-search-icons
             label(for="form").label-search
               input(type="text", placeholder='Search icon').input-search#form
               img(src="./static/content/svg/lens.svg", alt="").icon-input-search
-          .wrap-icons-grid
-            section.searh-list-icon#searh_list_icon
-
-    footer.main-footer
-      include partials/footer
+        section.wrapper-section
+          .searh-list-icon#searh_list_icon
 
 
-    //- Btn back to top
-    include partials/btn_back_top
-    
+
+
+      footer.main-footer
+        include partials/footer
+
+      //- Btn back to top
+      include partials/btn_back_top
+
 

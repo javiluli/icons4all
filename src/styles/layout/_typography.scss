@@ -1,32 +1,51 @@
-/* Typography */
-h1,
-h2,
-h3,
-h4,
-p {
+*,
+*::before,
+*::after {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
+  color: var(--color-text);
+}
+
+body {
+  counter-reset: section;
+  font-weight: 400;
+  line-height: var(--body-line-height);
 }
 h1 {
   font-size: var(--h1-font-size);
 }
-h2 {
-  font-size: var(--h2-font-size);
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+}
+img {
+  display: block;
+  width: 100%;
+}
+p,
+ul,
+li,
+span,
+a {
+  font-family: var(--body-font);
 }
 
-p {
-  margin-bottom: 0.75em;
-
-  &:last-child {
-    margin-bottom: 0;
-  }
-}
-
-.text-primary {
-  color: var(--color-primary);
+ul,
+li {
+  list-style: none;
 }
 
 a {
-  position: relative;
   text-decoration: none;
-  cursor: pointer;
+  display: block;
 }

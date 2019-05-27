@@ -1,13 +1,13 @@
 .btn-back-top {
   display: none;
   position: fixed;
-  bottom: 5em;
+  bottom: 2em;
   right: 1em;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   background-color: var(--color-body-bg);
   cursor: pointer;
-  border-width: 5px;
+  border-width: 2px;
   border-color: var(--color-first);
   border-style: solid;
   border-radius: 50%;
@@ -47,8 +47,8 @@
   position: absolute;
   top: 35%;
   right: 35%;
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   background-color: transparent;
   border-width: 5px;
   border-top-color: var(--color-first);

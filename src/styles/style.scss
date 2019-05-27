@@ -1,9 +1,12 @@
 @import "layout/variables";
-@import "layout/global";
+@import "layout/globalStyles";
 @import "layout/typography";
-@import "layout/menu";
-@import "layout/main";
+@import "layout/header";
+@import "layout/main_icons";
+@import "layout/input_search";
+@import "layout/notFound";
 @import "layout/footer";
 @import "layout/menu-footer";
 @import "layout/scroll_bar";
 @import "layout/btn-back-top";
+@import "layout/mediaQuery";

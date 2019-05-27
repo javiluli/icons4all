@@ -1,0 +1,101 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .link-item-list-nav {
+    padding: 0 1em;
+    font-size: var(--normal-font-size);
+  }
+
+  .input-search {
+    width: 20em;
+    font-size: 1.2em;
+    padding: 0.5em 3em;
+  }
+
+  .searh-list-icon {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .link-item-list-nav {
+    padding: 0 1.75em;
+  }
+
+  .input-search {
+    font-size: 1.25em;
+    padding: 0.75em 3em;
+  }
+
+  .searh-list-icon {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.25em 0em;
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      display: block;
+      width: 100%;
+      border: 0.5px solid var(--color-first);
+      border-radius: 100%;
+    }
+  }
+  .logo {
+    font-family: var(--heading-font);
+
+    &::after {
+      content: "";
+      display: none;
+    }
+  }
+
+  .link-item-list-nav {
+    padding: 0 0.75em;
+  }
+
+  .searh-list-icon {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .wrapper-icon {
+    &:hover {
+      background-color: white;
+      box-shadow: 3px 3px 15px -1px hsla(190, 64%, 46%, 0.2);
+      transform: scale(1.01);
+    }
+    &:active {
+      border: 1px solid var(--color-first);
+      box-shadow: none;
+      transform: scale(1);
+      box-shadow: inset 0 0 1.5em rgba(0, 0, 0, 0.1);
+    }
+    &:hover .spam-item::after {
+      transform: scaleX(1);
+    }
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  header {
+    justify-content: space-between;
+    padding: 0.5em 0em;
+  }
+
+  .link-item-list-nav {
+    padding: 0 1em;
+  }
+  .searh-list-icon {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}

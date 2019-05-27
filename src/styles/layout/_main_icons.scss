@@ -1,0 +1,68 @@
+/* Wrappers for icons*/
+.searh-list-icon {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 1em;
+}
+
+.wrapper-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  padding: 1em;
+  color: var(--dark-color-text);
+  background-color: var(--color-body-bg);
+  font-family: var(--body-font);
+  border-radius: 1em;
+  border: 3px solid transparent;
+  transition: 0.1s;
+
+  &:active {
+    border: 3px solid var(--color-first);
+    box-shadow: none;
+    transform: scale(1);
+    box-shadow: inset 0 0 1.5em rgba(0, 0, 0, 0.1);
+  }
+  &:hover .spam-item::after {
+    transform: scaleX(1);
+  }
+}
+.wrap-icon {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.download-item {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  top: 0;
+  left: 0;
+}
+
+.spam-item {
+  display: block;
+  color: var(--dark-color-text);
+  font-size: var(--small-font-size);
+  font-weight: 200;
+  font-family: var(--body-font);
+
+  &::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: var(--color-first);
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: 0.2s;
+  }
+}

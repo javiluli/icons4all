@@ -283,13 +283,20 @@ const filter = () => {
   for (let icon of icons) {
     let name = icon.name.toLowerCase();
     if (name.indexOf(text) !== -1) {
+      // searh_list_icon.innerHTML += `
+      // <div class="wrap-download"> ${icon.link}
+      //   <div class="wrap-icon"> ${icon.img}
+      //   <span class='spam-item'> ${icon.name} </span>
+      //   </div>
+      // </div>
+      // `;
       searh_list_icon.innerHTML += `
-      <div class="wrap-download"> ${icon.link} 
-        <div class="wrap-icon"> ${icon.img} 
-        <span class='spam-item'> ${icon.name} </span>
-        </div>
+      <div class="wrapper-icon">
+        ${icon.link}
+        ${icon.img} 
+        <span class="spam-item"> ${icon.name} </span></a>
       </div>
-      `;
+`;
     }
   }
   if (searh_list_icon.innerHTML === "") {

@@ -16,6 +16,7 @@ import "./static/fonts/Montserrat-Regular.ttf";
 import "./static/fonts/Montserrat-Medium.ttf";
 import "./static/fonts/Montserrat-SemiBold.ttf";
 //---------------------------------//
+import "./static/content/svg/battery-charging.svg";
 
 // Import Icons SVG for download
 //---------------------------------//

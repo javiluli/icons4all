@@ -1,0 +1,24 @@
+#__next {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: var(--color-second-body-bg);
+  color: var(--text-color);
+}
+
+.main-section-body {
+  margin: 1em 0;
+  border-radius: var(--border-radius);
+  max-width: 82em;
+  width: 100%;
+  display: grid;
+  grid-gap: 1.5em;
+  padding: 0 2em;
+}
+
+.img-item {
+  display: block;
+  width: 2.5em;
+}

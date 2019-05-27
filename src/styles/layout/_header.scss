@@ -1,19 +1,30 @@
 /* Navigation */
 header {
   position: relative;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  justify-content: center;
   align-items: center;
-  max-width: 92em;
+  max-width: 82em;
+  width: 100%;
   margin: 0 auto;
-  padding: 1em 0;
+  padding: 0.25em 0;
 }
 
 .logo {
-  font-family: var(--heading-font);
+  margin: 0.25em;
+  text-align: center;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 100%;
+    border: 0.5px solid var(--color-first);
+    border-radius: 100%;
+  }
 }
 
 .logo a {
+  font-family: var(--heading-font);
   text-decoration: none;
   color: var(--dark-color-text);
 }
@@ -29,7 +40,7 @@ header {
   padding: 0 0.5em;
   color: var(--dark-color-text);
   text-decoration: none;
-  font-size: var(--normal-font-size);
+  font-size: var(--small-font-size);
   font-family: var(--heading-font);
   font-weight: 600;
   transition: all 0.1s ease;
@@ -38,13 +49,4 @@ header {
   &:focus {
     color: var(--color-first);
   }
-}
-.hr-header {
-  display: block;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  border: 0.5px solid var(--color-first);
-  border-radius: 100%;
 }
