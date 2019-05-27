@@ -31,16 +31,17 @@ header {
 
 .list-nav {
   display: flex;
+  justify-content: center;
 }
 .item-list-nav {
   list-style: none;
 }
 .link-item-list-nav {
   display: inline-block;
-  padding: 0 0.5em;
+  padding: 0 0.75em;
   color: var(--dark-color-text);
   text-decoration: none;
-  font-size: var(--small-font-size);
+  font-size: var(--smaller-font-size);
   font-family: var(--heading-font);
   font-weight: 600;
   transition: all 0.1s ease;
