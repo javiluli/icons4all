@@ -6,6 +6,9 @@
 }
 
 .input-search {
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
   color: var(--dark-color-text);
   font-family: var(--body-font);
   font-size: 1em;
