@@ -1,50 +1,76 @@
 /* Navigation */
-header {
-  position: relative;
-  display: grid;
-  justify-content: center;
+.main-header {
+  grid-template-columns: 1fr max-content;
   align-items: center;
-  max-width: 82em;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0.25em 0;
+  height: var(--heading-height);
 }
 
-.logo {
-  margin: 0.25em;
-  text-align: center;
+.title-primary {
+  margin: 0;
+}
 
-  &::after {
-    content: "";
-    display: block;
-    width: 100%;
-    border: 0.5px solid var(--color-first);
-    border-radius: 100%;
+.menu_icon {
+  width: 2em;
+  height: 2em;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  cursor: pointer;
+}
+.menu_icon__span {
+  display: block;
+  width: 100%;
+  height: 0.25em;
+  border-radius: 0.25em;
+  background-color: var(--color-dark-bg);
+}
+
+.main-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: grid;
+  grid-gap: 0.5em;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--color-accent-dark);
+  padding: 2em;
+  z-index: var(--z-modal);
+  transform: translateX(-100%);
+  transition: 0.2s ease;
+  overflow-y: auto;
+}
+
+.show_menu {
+  transform: translateX(0);
+}
+.menu_icon__span_X {
+  position: absolute;
+  background-color: var(--color-text);
+
+  &:nth-child(1) {
+    transform: rotate(45deg);
+  }
+  &:nth-child(2) {
+    transform: rotate(-45deg);
+  }
+}
+.list-nav {
+  display: flex;
+  flex-direction: column;
+}
+.item-list-nav {
+  border-bottom: 1px solid var(--color-text);
+  &:last-child {
+    border-bottom: none;
   }
 }
 
-.logo a {
-  font-family: var(--heading-font);
-  text-decoration: none;
-  color: var(--dark-color-text);
-}
-
-.list-nav {
-  display: flex;
-  justify-content: center;
-}
-.item-list-nav {
-  list-style: none;
-}
 .link-item-list-nav {
-  display: inline-block;
-  padding: 0 0.75em;
-  color: var(--dark-color-text);
-  text-decoration: none;
-  font-size: var(--smaller-font-size);
-  font-family: var(--heading-font);
-  font-weight: 600;
-  transition: all 0.1s ease;
+  padding: 2em 0;
+  color: var(--color-text);
+  transition: all 0.15s ease;
 
   &:hover,
   &:focus {

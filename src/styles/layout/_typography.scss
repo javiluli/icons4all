@@ -14,8 +14,12 @@ html {
 body {
   counter-reset: section;
   font-weight: 400;
-  line-height: var(--body-line-height);
 }
+hr {
+  border: 0.05em solid var(--color-first);
+  border-radius: 0.1em;
+}
+
 h1 {
   font-size: var(--h1-font-size);
 }
@@ -27,17 +31,17 @@ h4,
 h5,
 h6 {
   font-family: var(--heading-font);
+  color: var(--dark-color-text);
 }
-img {
-  display: block;
-  width: 100%;
-}
+
 p,
 ul,
 li,
 span,
 a {
   font-family: var(--body-font);
+  color: var(--dark-color-text);
+  font-size: var(--normal-font-size);
 }
 
 ul,
@@ -48,4 +52,14 @@ li {
 a {
   text-decoration: none;
   display: block;
+}
+img {
+  display: block;
+  width: 100%;
+}
+input,
+button {
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
 }

@@ -6,34 +6,27 @@ html(lang='en')
     meta(http-equiv="X-UA-Compatible", content="ie=edge")
     meta(name="title" content="Icons SVG" class="next-head")
     meta(name="description" content="Repositorio de iconos SVG" class="next-head")
-
+    meta(name="author" content="Javier Delgado")
+    meta(name="keywords" content="HTML, PUG, CSS, SCSS, JavaScript")
     title Repositiorio icons SVG
     link(rel="stylesheet", href="static/css/normalize.css")
     link(rel="stylesheet", href="static/css/font-Montserrat.css")
     link(rel="stylesheet", href="static/css/font-Confortaa.css")
     link(rel="shortcut icon", href="static/content/svg/logo.svg", type="image/x-icon")
-    link(rel="stylesheet", href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
+    link(rel="preconnect", href="//github.com")
+
   body
     #__next
-      <!------- Header ------->
+      <!------------ Header ------------>
       include partials/header
       
-      main.main-section-body
-        section.wrapper-section
-          .wrap-search-icons
-            label(for="form").label-search
-              input(type="text", placeholder='Search icon').input-search#form
-              img(src="./static/content/svg/lens.svg", alt="").icon-input-search
-        section.wrapper-section
-          .searh-list-icon#searh_list_icon
+      <!------------- Main ------------->
+      include partials/main
 
+      <!------------ Footer ------------>
+      include partials/footer
 
-
-
-      footer.main-footer
-        include partials/footer
-
-      //- Btn back to top
+      <!------ Button back to top ------>
       include partials/btn_back_top
 
 

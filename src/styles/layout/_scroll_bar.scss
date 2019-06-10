@@ -1,7 +1,7 @@
 /* Scroll Personalizado */
 // the scrollbar.
 body::-webkit-scrollbar {
-  width: 15px;
+  width: 8px;
 }
 
 // the draggable scrolling handle.
@@ -30,5 +30,4 @@ body::-webkit-scrollbar-button {
 body::-webkit-scrollbar-track {
   background-color: var(--color-body-bg);
   border-radius: 10px;
-  margin-top: var(--heading-height);
 }

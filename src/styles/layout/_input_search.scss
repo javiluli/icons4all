@@ -6,21 +6,16 @@
 }
 
 .input-search {
-  appearance: none;
-  -webkit-appearance: none;
-  outline: none;
   color: var(--dark-color-text);
   font-family: var(--body-font);
-  font-size: 1em;
-  font-weight: 400;
-  width: 12.5em;
-  border: 3px solid hsl(0, 0%, 85%);
-  border-radius: 2em;
-  padding: 0.75em 3em;
+  font-size: var(--normal-font-size);
+  width: 100%;
+  border: 1px solid hsl(0, 0%, 85%);
+  border-radius: var(--border-radius);
+  padding: 0.5em 3em;
   transition: 0.2s;
   &:focus {
-    border: 3px solid var(--color-second);
-    width: 100%;
+    border: 1px solid var(--color-second);
   }
   &::selection {
     color: var(--color-text);

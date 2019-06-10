@@ -7,18 +7,16 @@
   background-color: var(--color-second-body-bg);
   color: var(--text-color);
 }
-
-.main-section-body {
-  margin: 1em 0;
-  border-radius: var(--border-radius);
+.max-w_padding {
   max-width: 82em;
   width: 100%;
-  display: grid;
-  grid-gap: 1.5em;
   padding: 0 2em;
+  position: relative;
+  display: grid;
 }
 
-.img-item {
-  display: block;
-  width: 2.5em;
+.wrapper-section {
+  display: flex;
+  justify-content: left;
+  width: 100%;
 }

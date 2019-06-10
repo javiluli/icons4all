@@ -19,42 +19,18 @@ import "./static/fonts/Montserrat-SemiBold.ttf";
 import "./static/content/svg/battery-charging.svg";
 
 // Import Icons SVG for download
-//---------------------------------//
-// #### Alphabetical order ####
-//---------------------------------//
-// --- B ----
-import "./static/js/import_icons_B.js";
-// --- C ----
-import "./static/js/import_icons_C.js";
-// --- D ----
-import "./static/js/import_icons_D.js";
-// --- F ----
-import "./static/js/import_icons_F.js";
-// --- G ----
-import "./static/js/import_icons_G.js";
-// --- H ----
-import "./static/js/import_icons_H.js";
-// --- L----
-import "./static/js/import_icons_L.js";
-// --- M ----
-import "./static/js/import_icons_M.js";
-// --- P ----
-import "./static/js/import_icons_P.js";
-// --- R ----
-import "./static/js/import_icons_R.js";
-// --- S ----
-import "./static/js/import_icons_S.js";
-// --- T ----
-import "./static/js/import_icons_T.js";
-// --- W ----
-import "./static/js/import_icons_W.js";
-// --- Y ----
-import "./static/js/import_icons_Y.js";
 
+// Import all filder from ./static/content/svg/
+const cache = {};
+function importAll(r) {
+  r.keys().forEach(key => (cache[key] = r(key)));
+}
+importAll(require.context("./static/content/svg/", true, /\.svg$/));
 //---------------------------------//
 
 //---------------------------------//
 
+import "./static/js/show_menu";
 import "./static/js/array_SVG_library.js";
 import "./static/js/btn-back-top";
 //---------------------------------//

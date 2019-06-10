@@ -1,10 +1,16 @@
 /* Wrappers for icons*/
+.main {
+  align-items: center;
+  grid-gap: 1.5em;
+  margin: 2em 0;
+}
 .searh-list-icon {
   position: relative;
   width: 100%;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  grid-gap: 1em;
+  grid-gap: var(--gap);
 }
 
 .wrapper-icon {
@@ -17,21 +23,19 @@
   color: var(--dark-color-text);
   background-color: var(--color-body-bg);
   font-family: var(--body-font);
-  border-radius: 1em;
-  border: 3px solid transparent;
+  border-radius: var(--border-radius);
   transition: 0.1s;
 
   &:active {
-    border: 3px solid var(--color-first);
     box-shadow: none;
     transform: scale(1);
-    box-shadow: inset 0 0 1.5em rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 0 0.25em rgba(0, 0, 0, 0.1);
   }
 }
 .wrap-icon {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 1em;
 }
 .download-item {
   position: absolute;
@@ -41,13 +45,12 @@
   top: 0;
   left: 0;
 }
-
+.img-item {
+  width: 2.5em;
+}
 .spam-item {
   display: block;
-  color: var(--dark-color-text);
-  font-size: var(--small-font-size);
   font-weight: 200;
-  font-family: var(--body-font);
 
   &::after {
     content: "";

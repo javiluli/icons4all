@@ -1,0 +1,101 @@
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  :root {
+    --h1-font-size: 2rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1.1rem;
+    --small-font-size: 0.875rem;
+    --smaller-font-size: 0.8125rem;
+  }
+  .max-w_padding {
+    max-width: 82em;
+    width: 100%;
+    padding: 0 2em;
+    position: relative;
+    display: grid;
+  }
+
+  // Menu
+  .main-header {
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      display: block;
+      width: 100%;
+      border-radius: 100%;
+    }
+  }
+
+  .menu_icon {
+    display: none;
+  }
+
+  .main-nav {
+    position: relative;
+    background-color: transparent;
+    height: inherit;
+    padding: 0;
+    transform: none;
+    transition: none;
+    overflow-y: inherit;
+  }
+
+  .menu_icon__span_X {
+    display: none;
+  }
+  .list-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: var(--heading-height);
+  }
+  .item-list-nav {
+    border-bottom: none;
+  }
+
+  .link-item-list-nav {
+    padding: 0;
+    color: var(--dark-color-text);
+    margin-left: 2em;
+
+    &:hover {
+      color: var(--color-first);
+    }
+    &:focus {
+      color: var(--color-accent-dark);
+    }
+  }
+
+  // Main section
+  .wrapper-section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .searh-list-icon {
+    max-width: 50em;
+  }
+  .wrapper-icon {
+    &:hover {
+      background-color: white;
+      box-shadow: 3px 3px 15px -1px hsla(190, 64%, 46%, 0.2);
+      transform: scale(1.03);
+    }
+    &:active {
+      transform: scale(1);
+      box-shadow: inset 0 0 1.5em rgba(0, 0, 0, 0.1);
+    }
+    &:hover .spam-item::after {
+      transform: scaleX(1);
+    }
+  }
+
+  // Button back to top
+  .btn-back-top {
+    width: 50px;
+    height: 50px;
+  }
+}

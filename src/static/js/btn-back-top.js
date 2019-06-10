@@ -18,7 +18,7 @@ function scrollFunction() {
       backToTopButton.classList.add("btnExit");
       setTimeout(function() {
         backToTopButton.style.display = "none";
-      }, 250);
+      }, 100);
     }
   }
 }

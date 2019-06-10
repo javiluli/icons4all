@@ -1,0 +1,28 @@
+.wrapper-social-btn {
+  position: fixed;
+  display: grid;
+  grid-gap: 0.5em;
+  left: 0;
+  top: 15em;
+  width: 2.25em;
+}
+.btn_social {
+  padding: 0.35em;
+}
+.btn_twitter {
+  background-color: #1da1f2;
+}
+.btn_fb {
+  background-color: #4172b8;
+}
+.btn_instagram {
+  background-color: #e4405f;
+}
+.btn_linkedin {
+  background-color: #0077b5;
+}
+$twtter: #1da1f2;
+$fb: #4172b8;
+$insta: #e4405f;
+$link: #0077b5;
+$github: #181717;

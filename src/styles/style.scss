@@ -1,12 +1,33 @@
+// Variables
 @import "layout/variables";
-@import "layout/globalStyles";
+
+// Typographys and global styles
 @import "layout/typography";
+@import "layout/globalStyles";
+
+// Header with menu and <h1>
 @import "layout/header";
-@import "layout/main_icons";
+
+// Main section, input search and 'not found' message
+@import "layout/main";
 @import "layout/input_search";
 @import "layout/notFound";
+
+// Footer
 @import "layout/footer";
 @import "layout/menu-footer";
+
+// Custom scroll bar
 @import "layout/scroll_bar";
+
+// Button back to top
 @import "layout/btn-back-top";
-@import "layout/mediaQuery";
+
+@import "layout/social_btn";
+
+// Media Queries
+@import "layout/mq_max600";
+@import "layout/mq_min600";
+@import "layout/mq_min768";
+@import "layout/mq_min992";
+@import "layout/mq_min1200";
