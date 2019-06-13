@@ -9,4 +9,7 @@
   .wrapper-social-btn {
     width: 2.5em;
   }
+  .searh-list-icon {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }

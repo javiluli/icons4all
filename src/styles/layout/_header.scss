@@ -1,8 +1,13 @@
 /* Navigation */
 .main-header {
+  width: 100%;
+  padding: 0 2em;
+  position: relative;
+  display: grid;
   grid-template-columns: 1fr max-content;
   align-items: center;
   height: var(--heading-height);
+  border-bottom: 1px solid var(--color-first);
 }
 
 .title-primary {

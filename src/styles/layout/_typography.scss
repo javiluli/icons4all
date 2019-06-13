@@ -15,10 +15,6 @@ body {
   counter-reset: section;
   font-weight: 400;
 }
-hr {
-  border: 0.05em solid var(--color-first);
-  border-radius: 0.1em;
-}
 
 h1 {
   font-size: var(--h1-font-size);

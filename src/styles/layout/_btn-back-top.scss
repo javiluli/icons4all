@@ -1,8 +1,8 @@
 .btn-back-top {
   display: none;
   position: fixed;
-  bottom: 0;
-  right: 1em;
+  bottom: 2.5em;
+  right: 0.25;
   width: 40px;
   height: 40px;
   background-color: var(--color-body-bg);
@@ -18,11 +18,11 @@
   z-index: var(--z-modal);
 
   &:hover {
-    border-color: var(--color-second);
+    box-shadow: 0 0 10px var(--color-second);
   }
   &:active {
-    border-color: var(--color-accent-dark);
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    transform: scale(0.98);
   }
 }
 
@@ -42,10 +42,10 @@
 /* fadeInUp */
 @keyframes btnEntrance {
   from {
-    bottom: -100%;
+    right: -100%;
   }
   to {
-    bottom: 0;
+    right: 0.25em;
   }
 }
 
@@ -58,9 +58,9 @@
 /* fadeOutDown */
 @keyframes btnExit {
   from {
-    bottom: 0;
+    right: 0.25em;
   }
   to {
-    bottom: -100%;
+    right: -100%;
   }
 }
