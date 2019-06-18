@@ -9,6 +9,14 @@ module.exports = {
     path: path.resolve(__dirname, "../"),
     filename: "js/script.js"
   },
+  devServer: {
+    port: 9000,
+    compress: true,
+    open: true,
+    hot: true,
+    host: "192.168.1.44",
+    watchContentBase: true
+  },
   module: {
     rules: [
       {
@@ -16,6 +24,7 @@ module.exports = {
         test: /\.pug/,
         loader: "pug-loader"
       },
+
       {
         // Compiler SCSS/SASS in miniCss
         test: /\.(sa|sc)ss$/,

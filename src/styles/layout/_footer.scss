@@ -1,20 +1,20 @@
 .main-footer {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 100%;
   height: var(--heading-height);
   z-index: var(--z-normal);
   background-color: var(--color-body-bg);
 }
-.wrapper-footer {
-  align-items: center;
-  grid-gap: 1.5em;
-}
+
 .main-section-footer {
-  // padding: 0 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .text-footer {
-  // font-size: var(--h2-font-size);
+  font-size: var(--h3-font-size);
 }
 .main-section-footer {
   width: 100%;
