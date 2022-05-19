@@ -19,7 +19,7 @@
     "image-webpack-loader": "^8.0.1",
     "mini-css-extract-plugin": "^2.0.0",
     "node-sass": "^7.0.0",
-    "postcss-loader": "^6.1.0",
+    "postcss-loader": "^7.0.0",
     "pug": ">=3.0.1",
     "pug-loader": "^2.4.0",
     "rimraf": "^3.0.2",
